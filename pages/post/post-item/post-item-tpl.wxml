@@ -1,0 +1,5 @@
+<template name="postItemTpl">
+<view class="post-container">
+
+</view>
+</template>

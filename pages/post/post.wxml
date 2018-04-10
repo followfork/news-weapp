@@ -1,2 +1,16 @@
-<!--pages/post/post.wxml-->
-<text>pages/post/post.wxml</text>
+<import src="post-item/post-item-tmp.wxml" />
+<view>
+  <swiper catchtap="onSwiperTap" autoplay="true">
+    <swiper-item >
+      <image src="/images/post/post-2@text.jpg" data-post-id='4'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/post-3@text.jpg" data-post-id='5'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<block>
+  <view>
+    <template is="postItemTpl" />
+  </view>
+</block>
