@@ -10,10 +10,15 @@ Page({
     this.setData({
       postList: dbPost.getAllPostData()
     });
+    console.log(this.data.postList)
   },
 
   onSwiperTap(event) {
 
+  },
+
+  onTapToDetail(event) {
+    
   }
 
 })
