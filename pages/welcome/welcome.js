@@ -9,7 +9,7 @@ Page({
   },
   onTapJump(event){
     wx.navigateTo({
-      url: '../posts/posts',
+      url: '../post/post',
       success(){
         console.log('success')
       }
