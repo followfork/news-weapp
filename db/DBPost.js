@@ -10,7 +10,7 @@ class DBPost {
   getAllPostData() {
     var res = wx.getStorageSync(this.storageKeyName)
     if(!res) {
-      res = require('../data/data.js')
+      res = require('../data/data.js').postList
       // this.initPostList(res)
     }
     return res
