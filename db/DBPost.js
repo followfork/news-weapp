@@ -20,6 +20,19 @@ class DBPost {
 
   }
 
+  getPostItemById(){
+    var postsData = this.getAllPostData();
+    var len = postsData.length;
+    for (var i = 0; i < len; i++) {
+      if (postsData[i].postId == this.postId) {
+        return {
+          index: i,
+          data: postsData[i]
+        }
+      }
+    }
+  }
+
 }
 
 export { DBPost }
