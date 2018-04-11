@@ -17,5 +17,11 @@ Page({
       post: this.postData
     })
     console.log(this.postData)
-  }
+  },
+
+  onReady: function () {
+    wx.setNavigationBarTitle({
+      title: this.postData.title
+    })
+  },
 })
