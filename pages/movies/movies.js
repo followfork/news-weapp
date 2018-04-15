@@ -77,16 +77,16 @@ Page({
 
   onMoreTap: function (event) {
     var category = event.currentTarget.dataset.category;
-    // wx.navigateTo({
-    //   url: "more-movie/more-movie?category=" + category
-    // })
+    wx.navigateTo({
+      url: "more-movie/more-movie?category=" + category
+    })
   },
 
   onMovieTap: function (event) {
     var movieId = event.currentTarget.dataset.movieid;
-    // wx.navigateTo({
-    //   url: "movie-detail/movie-detail?id=" + movieId
-    // })
+    wx.navigateTo({
+      url: "movie-detail/movie-detail?id=" + movieId
+    })
   },
 
   onCancelImgTap: function (event) {
