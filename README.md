@@ -1,3 +1,2 @@
 # news-weapp
-# app
-# ff submodule
+# ff
